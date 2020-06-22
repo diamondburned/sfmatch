@@ -52,3 +52,13 @@ Unmarshal does **not** type-check, thus the user should always make sure
 whatever type goes into `Unmarshal` is the same as whatever was compiled.
 
 Actually, you shouldn't even use this library in production.
+
+## Supported types
+
+The following types are supported:
+
+- bool
+- int, int8, int16, int32, int64
+- uint, uint8, uint16, uint32, uint64
+- float32, float64
+- string
