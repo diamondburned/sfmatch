@@ -1,5 +1,9 @@
 # sfmatch
 
+![](https://gitlab.com/diamondburned/sfmatch/badges/master/pipeline.svg?style=flat-square)
+![](https://gitlab.com/diamondburned/sfmatch/badges/master/coverage.svg?style=flat-square)
+
+
 A library that allows matching input strings into structs using regex matches.
 
 ## Example
