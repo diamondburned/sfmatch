@@ -10,8 +10,6 @@ import (
 	"github.com/pkg/errors"
 )
 
-type primitiveParser = func(string, reflect.Value) error
-
 var ErrUnsupportedKind = errors.New("Unsupported kind")
 
 // primitives only
