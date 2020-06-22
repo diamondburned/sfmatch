@@ -2,8 +2,8 @@
     "image": "golang:alpine",
     "unit_test": {
         "script": [
-            "go test -v -coverprofile $COV ./...",
-            "go tool cover -func $COV"
+            "go test -v -coverprofile cov ./...",
+            "go tool cover -func cov"
         ]
     }
 }
