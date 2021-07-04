@@ -62,3 +62,7 @@ The following types are supported:
 - uint, uint8, uint16, uint32, uint64
 - float32, float64
 - string
+
+## License
+
+This library is licensed under the Mozilla Public License v2.0.
